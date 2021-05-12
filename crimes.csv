@@ -1,0 +1,397 @@
+﻿date,name,crimes
+202001,Barking and Dagenham,1676
+202002,Barking and Dagenham,1582
+202003,Barking and Dagenham,1800
+202004,Barking and Dagenham,1272
+202005,Barking and Dagenham,1451
+202006,Barking and Dagenham,1625
+202007,Barking and Dagenham,1676
+202008,Barking and Dagenham,1634
+202009,Barking and Dagenham,1604
+202010,Barking and Dagenham,1701
+202011,Barking and Dagenham,1712
+202012,Barking and Dagenham,1482
+202001,Barnet,2651
+202002,Barnet,2592
+202003,Barnet,2299
+202004,Barnet,1660
+202005,Barnet,1993
+202006,Barnet,2102
+202007,Barnet,2382
+202008,Barnet,2381
+202009,Barnet,2308
+202010,Barnet,2461
+202011,Barnet,2401
+202012,Barnet,2156
+202001,Bexley,1624
+202002,Bexley,1462
+202003,Bexley,1284
+202004,Bexley,912
+202005,Bexley,1227
+202006,Bexley,1188
+202007,Bexley,1338
+202008,Bexley,1433
+202009,Bexley,1304
+202010,Bexley,1303
+202011,Bexley,1335
+202012,Bexley,1180
+202001,Brent,2518
+202002,Brent,2389
+202003,Brent,2275
+202004,Brent,2032
+202005,Brent,2255
+202006,Brent,2413
+202007,Brent,2602
+202008,Brent,2598
+202009,Brent,2478
+202010,Brent,2606
+202011,Brent,2310
+202012,Brent,2259
+202001,Bromley,2157
+202002,Bromley,2074
+202003,Bromley,1768
+202004,Bromley,1444
+202005,Bromley,1644
+202006,Bromley,1693
+202007,Bromley,1925
+202008,Bromley,1787
+202009,Bromley,1909
+202010,Bromley,2073
+202011,Bromley,1863
+202012,Bromley,1670
+202001,Camden,3241
+202002,Camden,3454
+202003,Camden,2720
+202004,Camden,1640
+202005,Camden,1863
+202006,Camden,2085
+202007,Camden,2442
+202008,Camden,2594
+202009,Camden,2603
+202010,Camden,2718
+202011,Camden,2271
+202012,Camden,1973
+202001,City of London,3241
+202002,City of London,3454
+202003,City of London,2720
+202004,City of London,1640
+202005,City of London,1863
+202006,City of London,2085
+202007,City of London,2442
+202008,City of London,2594
+202009,City of London,2603
+202010,City of London,2718
+202011,City of London,2271
+202012,City of London,1973
+202001,Croydon,2374
+202002,Croydon,2307
+202003,Croydon,2074
+202004,Croydon,1661
+202005,Croydon,2054
+202006,Croydon,2194
+202007,Croydon,2338
+202008,Croydon,2233
+202009,Croydon,2226
+202010,Croydon,2224
+202011,Croydon,2176
+202012,Croydon,1882
+202001,Ealing,2279
+202002,Ealing,2115
+202003,Ealing,2154
+202004,Ealing,1596
+202005,Ealing,1974
+202006,Ealing,2151
+202007,Ealing,2140
+202008,Ealing,2265
+202009,Ealing,2172
+202010,Ealing,2154
+202011,Ealing,2166
+202012,Ealing,1766
+202001,Enfield,5669
+202002,Enfield,5393
+202003,Enfield,5360
+202004,Enfield,4111
+202005,Enfield,4718
+202006,Enfield,5076
+202007,Enfield,5612
+202008,Enfield,5307
+202009,Enfield,5441
+202010,Enfield,5578
+202011,Enfield,5164
+202012,Enfield,4696
+202001,Greenwich,2374
+202002,Greenwich,2307
+202003,Greenwich,2074
+202004,Greenwich,1661
+202005,Greenwich,2054
+202006,Greenwich,2194
+202007,Greenwich,2338
+202008,Greenwich,2233
+202009,Greenwich,2226
+202010,Greenwich,2224
+202011,Greenwich,2176
+202012,Greenwich,1882
+202001,Hackney,2773
+202002,Hackney,2617
+202003,Hackney,2377
+202004,Hackney,1636
+202005,Hackney,2177
+202006,Hackney,2410
+202007,Hackney,2798
+202008,Hackney,2969
+202009,Hackney,3163
+202010,Hackney,2881
+202011,Hackney,2620
+202012,Hackney,2313
+202001,Hammersmith and Fulham,3198
+202002,Hammersmith and Fulham,3030
+202003,Hammersmith and Fulham,2808
+202004,Hammersmith and Fulham,1978
+202005,Hammersmith and Fulham,2347
+202006,Hammersmith and Fulham,2328
+202007,Hammersmith and Fulham,2873
+202008,Hammersmith and Fulham,2841
+202009,Hammersmith and Fulham,2876
+202010,Hammersmith and Fulham,3089
+202011,Hammersmith and Fulham,2725
+202012,Hammersmith and Fulham,2585
+202001,Haringey,1830
+202002,Haringey,1765
+202003,Haringey,1604
+202004,Haringey,1260
+202005,Haringey,1381
+202006,Haringey,1369
+202007,Haringey,1698
+202008,Haringey,1720
+202009,Haringey,1761
+202010,Haringey,1861
+202011,Haringey,1463
+202012,Haringey,1412
+202001,Harrow,2477
+202002,Harrow,2450
+202003,Harrow,2448
+202004,Harrow,2027
+202005,Harrow,2090
+202006,Harrow,2315
+202007,Harrow,2565
+202008,Harrow,2495
+202009,Harrow,2721
+202010,Harrow,2453
+202011,Harrow,2422
+202012,Harrow,2444
+202001,Havering,3198
+202002,Havering,3030
+202003,Havering,2808
+202004,Havering,1978
+202005,Havering,2347
+202006,Havering,2328
+202007,Havering,2873
+202008,Havering,2841
+202009,Havering,2876
+202010,Havering,3089
+202011,Havering,2725
+202012,Havering,2585
+202001,Hillingdon,2279
+202002,Hillingdon,2115
+202003,Hillingdon,2154
+202004,Hillingdon,1596
+202005,Hillingdon,1974
+202006,Hillingdon,2151
+202007,Hillingdon,2140
+202008,Hillingdon,2265
+202009,Hillingdon,2172
+202010,Hillingdon,2154
+202011,Hillingdon,2166
+202012,Hillingdon,1766
+202001,Hounslow,2274
+202002,Hounslow,2053
+202003,Hounslow,2082
+202004,Hounslow,1786
+202005,Hounslow,1929
+202006,Hounslow,1968
+202007,Hounslow,2190
+202008,Hounslow,2058
+202009,Hounslow,2225
+202010,Hounslow,2111
+202011,Hounslow,1965
+202012,Hounslow,1663
+202001,Islington,2603
+202002,Islington,2566
+202003,Islington,1999
+202004,Islington,1488
+202005,Islington,1745
+202006,Islington,1935
+202007,Islington,2253
+202008,Islington,2397
+202009,Islington,2365
+202010,Islington,2228
+202011,Islington,1993
+202012,Islington,1845
+202001,Kensington and Chelsea,1979
+202002,Kensington and Chelsea,1769
+202003,Kensington and Chelsea,1475
+202004,Kensington and Chelsea,895
+202005,Kensington and Chelsea,1096
+202006,Kensington and Chelsea,1266
+202007,Kensington and Chelsea,1661
+202008,Kensington and Chelsea,1574
+202009,Kensington and Chelsea,1704
+202010,Kensington and Chelsea,1757
+202011,Kensington and Chelsea,1266
+202012,Kensington and Chelsea,1485
+202001,Kingston upon Thames,3104
+202002,Kingston upon Thames,2824
+202003,Kingston upon Thames,2387
+202004,Kingston upon Thames,1579
+202005,Kingston upon Thames,1915
+202006,Kingston upon Thames,2206
+202007,Kingston upon Thames,2729
+202008,Kingston upon Thames,2588
+202009,Kingston upon Thames,2727
+202010,Kingston upon Thames,2719
+202011,Kingston upon Thames,2194
+202012,Kingston upon Thames,2323
+202001,Lambeth,2936
+202002,Lambeth,2683
+202003,Lambeth,2515
+202004,Lambeth,1892
+202005,Lambeth,2271
+202006,Lambeth,2491
+202007,Lambeth,2896
+202008,Lambeth,2957
+202009,Lambeth,2883
+202010,Lambeth,2694
+202011,Lambeth,2556
+202012,Lambeth,2207
+202001,Lewisham,2403
+202002,Lewisham,2215
+202003,Lewisham,2106
+202004,Lewisham,2017
+202005,Lewisham,2270
+202006,Lewisham,2293
+202007,Lewisham,2511
+202008,Lewisham,2457
+202009,Lewisham,2410
+202010,Lewisham,2487
+202011,Lewisham,2335
+202012,Lewisham,2066
+202001,Merton,1278
+202002,Merton,1121
+202003,Merton,1135
+202004,Merton,891
+202005,Merton,999
+202006,Merton,1110
+202007,Merton,1276
+202008,Merton,1208
+202009,Merton,1247
+202010,Merton,1211
+202011,Merton,1106
+202012,Merton,983
+202001,Newham,3031
+202002,Newham,2907
+202003,Newham,2593
+202004,Newham,2071
+202005,Newham,2331
+202006,Newham,2697
+202007,Newham,2988
+202008,Newham,2986
+202009,Newham,2900
+202010,Newham,3093
+202011,Newham,2790
+202012,Newham,2865
+202001,Redbridge,2083
+202002,Redbridge,2124
+202003,Redbridge,1907
+202004,Redbridge,1487
+202005,Redbridge,1730
+202006,Redbridge,1897
+202007,Redbridge,2038
+202008,Redbridge,1939
+202009,Redbridge,2009
+202010,Redbridge,2125
+202011,Redbridge,1978
+202012,Redbridge,1846
+202001,Richmond upon Thames,1150
+202002,Richmond upon Thames,1020
+202003,Richmond upon Thames,933
+202004,Richmond upon Thames,719
+202005,Richmond upon Thames,970
+202006,Richmond upon Thames,1017
+202007,Richmond upon Thames,1201
+202008,Richmond upon Thames,1171
+202009,Richmond upon Thames,1113
+202010,Richmond upon Thames,1060
+202011,Richmond upon Thames,1002
+202012,Richmond upon Thames,908
+202001,Southwark,2976
+202002,Southwark,3039
+202003,Southwark,2447
+202004,Southwark,1842
+202005,Southwark,2231
+202006,Southwark,2537
+202007,Southwark,2988
+202008,Southwark,3157
+202009,Southwark,3000
+202010,Southwark,2986
+202011,Southwark,2619
+202012,Southwark,2396
+202001,Sutton,1360
+202002,Sutton,1205
+202003,Sutton,1189
+202004,Sutton,868
+202005,Sutton,1017
+202006,Sutton,1106
+202007,Sutton,1049
+202008,Sutton,1034
+202009,Sutton,1022
+202010,Sutton,1093
+202011,Sutton,1182
+202012,Sutton,922
+202001,Tower Hamlets,2763
+202002,Tower Hamlets,2684
+202003,Tower Hamlets,2504
+202004,Tower Hamlets,1915
+202005,Tower Hamlets,2288
+202006,Tower Hamlets,2542
+202007,Tower Hamlets,2929
+202008,Tower Hamlets,2897
+202009,Tower Hamlets,3053
+202010,Tower Hamlets,2980
+202011,Tower Hamlets,2610
+202012,Tower Hamlets,2471
+202001,Waltham Forest,2088
+202002,Waltham Forest,2104
+202003,Waltham Forest,1934
+202004,Waltham Forest,1685
+202005,Waltham Forest,1925
+202006,Waltham Forest,2019
+202007,Waltham Forest,2098
+202008,Waltham Forest,2054
+202009,Waltham Forest,2040
+202010,Waltham Forest,1901
+202011,Waltham Forest,1940
+202012,Waltham Forest,1756
+202001,Wandsworth,2379
+202002,Wandsworth,2100
+202003,Wandsworth,1841
+202004,Wandsworth,1413
+202005,Wandsworth,1803
+202006,Wandsworth,2056
+202007,Wandsworth,2228
+202008,Wandsworth,2276
+202009,Wandsworth,2448
+202010,Wandsworth,2280
+202011,Wandsworth,2104
+202012,Wandsworth,1942
+202001,Westminster,6401
+202002,Westminster,6685
+202003,Westminster,4692
+202004,Westminster,1708
+202005,Westminster,2264
+202006,Westminster,3002
+202007,Westminster,4109
+202008,Westminster,4494
+202009,Westminster,4475
+202010,Westminster,4339
+202011,Westminster,3007
+202012,Westminster,3498

@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font: italic;
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+}
+
+/*start of nevigation bar*/
+.menudiv{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0;
+/*	position: fixed;*/
+	width: 100%;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+
+li{
+	float: left;
+	padding-left: 10px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+#li1{
+	color: burlywood;
+	font-size: 30px;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: left;
+	text-decoration: none;
+	padding: 10px 60px;
+}
+
+
+li a:hover{
+	background: grey;
+/*	cursor:cell;*/
+}
+
+#login{
+	float:right;
+}
+
+#layer2{
+    position: absolute;
+    display: none;
+}
+
+#layer2 li{
+	float: none;
+}
+
+#prdt{
+	position: relative;
+}
+#prdt:hover #layer2{
+	display: block;
+	
+}
+
+/*end of bar*/
+
+#div1{
+	width: 100%;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: 300px 300px;
+	background:url( "img/london1.jpg") no-repeat center center;
+}
+
+#img1{
+	width: 500;
+	height: auto;
+}
+
+#div2{
+	padding-top: 50px;
+	padding-left: 80px;
+	color: aliceblue;
+/*	font: italic;*/
+}
+
+#div3{
+	width: 85%;
+	height: auto;
+	background-color: chartreuse;
+	margin: 20px auto;
+}
+
+
+
+/*3 product in the homepage*/
+.productdiv{
+	width: 100%;
+	height: auto;
+	transition: all 0.8s;
+}
+
+.productdiv img:hover{
+	transform: scale(1.10);
+}
+
+#product1pic{
+	width: 60%;
+	
+	float: left;
+	transition: all 0.8s;
+}
+
+#product1pic a:hover{
+	transform: scale(1.3);
+}
+
+#product1content{
+	width: 40%;
+	float: left;
+	text-align:center;
+}
+
+#product2pic{
+	width: 60%;
+	float: right;
+}
+
+#product2content{
+	width: 40%;
+	float: left;
+	text-align:center;
+}
+
+#product3pic{
+	width: 60%;
+	float: left;
+}
+
+#product3content{
+	width: 40%;
+	float: left;
+	text-align:center;
+}
+
+.learnmore{
+	color: aliceblue;
+	list-style-type: none;
+	text-decoration: none;
+	background-color: red;
+}
+
+#setinUp{
+	border: 1px solid  rgba(255,0,4,0.10);
+	text-align: center;
+	color: aliceblue;
+	width: 100%;
+	height: 800px;
+	margin: 0 auto;
+	padding: 0;
+/*	background-color:wheat;*/
+	background:url( img/cd-background-2.jpg) repeat-y center center;
+	
+	
+}
+
+#setinUp input{
+	align-items: center;
+}
+
+.setinContent{
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.setinContent a:link{
+	color: aliceblue;
+}
+
+.information{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
+#div3{
+	background-color: black;
+}
+
+
+
+
+/*
+
+.smallpic{
+	width: 25%；
+}
+*/
+
+
+.footer{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	color: aliceblue;
+	text-align: center;
+	float:left;
+}
+
+.footer a:link{
+	color: white;
+}
+
+#contactusfooter{
+	width: 33%;
+	float: left;
+	
+}
+#aboutusfooter{
+	width: 33%;
+	float: left;
+
+}
+#supportfooter{
+	width: 33%;
+	float: left;
+
+}
+
+
+.space{
+	width: 100%;
+	height: 100px;
+}

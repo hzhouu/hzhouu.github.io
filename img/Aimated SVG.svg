@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800">
+<title>Aimated SVG</title>
+<defs>
+<clipPath id="cd-image-4">
+<path id="cd-changing-path-4" d="M 0 800 C 0 800 1400 800 1400 800 C 1400 800 1400 0 1400 0 C 1400 0 1 0 1 0 C 0.4 0 0 0.4 0 1 C 0 1 0 800 0 800 C 0 800 0 800 0 800" />
+</clipPath>
+</defs>
+<image clip-path="url(&quot;#cd-image-4&quot;)" width="1400px" height="800px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/img-4.jpg" />
+<desc>Created with Snap</desc></svg>
