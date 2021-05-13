@@ -176,11 +176,11 @@
 	</div>
 	
 	
-	<h1>Historical average house prices in London (breakdown by boroughs)</h1>
+    <h1>Total number of crimes in London (breakdown by boroughs)</h1>
     <div id="slider">
-      <label for="year">Slide to change year:</label>
-      <input type="range" min=1995 max=2017 step=1 id="year" value=2017 oninput="selected_year.value = year.value">
-      <output name="selected_year" id="selected_year">2017</output>
+      <label for="month">Slide to change month:</label>
+      <input type="range" min=202001 max=202012 step=1 id="month" value=202001 oninput="selected_month.value = month.value">
+      <output name="selected_month" id="selected_month">202001</output>
     </div>
 
 
@@ -189,15 +189,15 @@
 
     <div id="info">
         <h1 id="con_name"></h1>
-        <p>In <span id="borough_year"></span> the average house price in <span id="borough_name"></span> was &pound<span id="borough_price">.</span></p>
+        <p>In <span id="borough_month"></span> the total number of crimes in <span id="borough_name"></span> was <span id="borough_crimes">.</span></p>
     </div>
-	
+
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.7.1/d3.min.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/d3-queue/3.0.4/d3-queue.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/2.2.0/topojson.min.js"></script>
-<script>
+    <script>
         // dimensions of visualisation
         var width;
         var height;
@@ -205,7 +205,7 @@
         var widthLeg;
         var heightLeg;
 
-        // var slider = d3.select('#year');
+        // var slider = d3.select('#month');
 
 
         // 'svg' to draw in, 'g' element to group everything together
@@ -245,26 +245,25 @@
           }
 
 
-        function draw(year,boundries, prices) {
+        function draw(month,boundries, crimes) {
 
           var minVal = d3.min(dataArray)
           var maxVal = d3.max(dataArray)
           var ramp = d3.scaleLinear().domain([minVal,maxVal]).range([lowColor,highColor])
 
-          year_data = prices.filter(function(d) {
-            return +d.date === +year;
+          month_data = crimes.filter(function(d) {
+            return +d.date === +month;
           });
-          // console.log(year_data);
-          for (var i = 0; i < year_data.length; i++) {
-            var dataBorough = year_data[i].name;
-            var priceBorough = +year_data[i].Average_Price;
+          for (var i = 0; i < month_data.length; i++) {
+            var dataBorough = month_data[i].name;
+            var crimesBorough = +month_data[i].crimes;
             var borough_data = topojson.feature(boundries, boundries.objects["london_boroughs"]).features;
             for (var j = 0; j < borough_data.length; j++) {
               var borough = borough_data[j].properties.name;
 
               if (dataBorough === borough) {
                 // console.log(borough_data[j].properties)
-                borough_data[j].properties.value = priceBorough;
+                borough_data[j].properties.value = crimesBorough;
                 // console.log(borough_data[j].properties.value)
 
                 break;
@@ -301,26 +300,26 @@
                   .style("left", "30px");
             }
 
-             var borough_year = "";
+             var borough_month = "";
              var borough_name = "";
-             var borough_price = "";
+             var borough_crimes = "";
 
-             for(var i = 0; i < year_data.length; i++) {
-               if(year_data[i].name === d.properties.name) {
-                    //  console.log(year_data.properties.name)
-                     borough_year = year_data[i].date;
-                     borough_name = year_data[i].name;
-                     borough_price = year_data[i].Average_Price;
+             for(var i = 0; i < month_data.length; i++) {
+               if(month_data[i].name === d.properties.name) {
+                    //  console.log(month_data.properties.name)
+                     borough_month = month_data[i].date;
+                     borough_name = month_data[i].name;
+                     borough_crimes = month_data[i].crimes;
                }
 
              }
 
-             d3.select("#borough_year")
-               .text(borough_year);
+             d3.select("#borough_month")
+               .text(borough_month);
              d3.select("#borough_name")
                .text(borough_name);
-             d3.select("#borough_price")
-               .text(borough_price);
+             d3.select("#borough_crimes")
+               .text(borough_crimes);
           }
 
 
@@ -416,7 +415,7 @@
               .attr("dx", "-.8em")
               .attr("dy", ".15em")
               .attr("transform", function(d) {
-                  return "rotate(-70)"
+                  return "rotate(-90)"
                   });
 
         }
@@ -447,27 +446,27 @@
                 .projection(projection);
 
             lowColor = '#f9f9f9';
-            highColor = '#008000';
+            highColor = '#000000';
 
             dataArray = [];
 
-            var slider = d3.select('#year');
+            var slider = d3.select('#month');
 
 
             d3.queue()
               .defer(d3.json, "london_boroughs.json")
-              .defer(d3.csv, "house_prices.csv")
-              .await(function(error, boundry_data, prices_data) {
-                for (var d = 0; d < prices_data.length; d++) {
-                  dataArray.push(+(prices_data[d].Average_Price))
+              .defer(d3.csv, "crimes.csv")
+              .await(function(error, boundry_data, crimes_data) {
+                for (var d = 0; d < crimes_data.length; d++) {
+                  dataArray.push(+(crimes_data[d].crimes))
                 };
                 slider.on('change', function() {
 
                     reset();
-                    draw(this.value, boundry_data, prices_data);
+                    draw(this.value, boundry_data, crimes_data);
         });
 
-                draw(2017,boundry_data, prices_data);
+                draw(202001,boundry_data, crimes_data);
               });
         }
 
